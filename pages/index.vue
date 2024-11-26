@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen flex items-center justify-center py-12 px-4">
+  <section class=" flex justify-center py-12 px-4">
     <div class="bg-white rounded-lg shadow-xl max-w-2xl w-full p-8">
       <ContentDoc path="home">
         <template v-slot="{ doc }">
@@ -13,7 +13,7 @@
           </div>
 
           <div class="mt-8 text-center">
-            <nuxt-link to="/blog" class="inline-block bg-blue-600 text-white py-2 px-6 rounded-full hover:bg-blue-700 transition duration-300">
+            <nuxt-link to="/blog" class="inline-block bg-gray-800 text-white py-2 px-6 rounded-full hover:bg-gray-600 transition duration-300">
               Explore More Blogs
             </nuxt-link>
           </div>
